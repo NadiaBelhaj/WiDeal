@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "934430857019",
+    "project_id": "wideal-app-flutter",
+    "storage_bucket": "wideal-app-flutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:934430857019:android:7af73b9d49982ab611091e",
+        "android_client_info": {
+          "package_name": "com.nadia.wideal_app_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "934430857019-rqg9f8bmcsu728a7j7m7kkbh2jucdbn0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhDz6FP-Y0n-N_3_9G07eXko3iq9t5h04"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "934430857019-rqg9f8bmcsu728a7j7m7kkbh2jucdbn0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
