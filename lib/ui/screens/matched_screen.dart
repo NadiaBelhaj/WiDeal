@@ -50,7 +50,7 @@ class MatchedScreen extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              Image.asset('images/wideal_icon.jpg', width: 40),
+              Image.asset('images/wideal_icon.png', width: 40),
               Container(
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
