@@ -1,2 +1,16 @@
-# WiDeal
-It is an online barter application based on mutual aid between individuals. It allows people to find jobs without having to search and offers to save money through the exchange of goods, services or points which are the currency of our application. These points help us to value the services.
+# workshop_sim4
+
+A new Flutter project.
+
+## Getting Started
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+
+For help getting started with Flutter, view our
+[online documentation](https://flutter.dev/docs), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
