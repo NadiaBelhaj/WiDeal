@@ -1,0 +1,4 @@
+#Wed Mar 02 15:16:08 CET 2022
+base.0=/Users/macpro/myplace/Front-End/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
