@@ -9,10 +9,10 @@ const kPrimaryColor = Color(0xFF1D1C1C);
 const kSecondaryColor = Colors.white;
 const kAccentColor = Color(0xFFF4C470);
 
-const kColorPrimaryVariant = Color(0xFF424242);
+const kColorPrimaryVariant = Color(0xFFF4C480);
 
-const kBackgroundColor = Color(0xFF1D1C1C);
-const kBackgroundColorInt = 0xFF1D1C1C;
+const kBackgroundColor = Color(0xFFF4C492);
+const kBackgroundColorInt = 0xFFF4C492;
 const kFontFamily = 'Nunito';
 
 const kTextTheme = TextTheme(
@@ -24,21 +24,21 @@ const kTextTheme = TextTheme(
 const kButtonTheme = ButtonThemeData(
   splashColor: Colors.transparent,
   padding: EdgeInsets.symmetric(vertical: 14),
-  buttonColor: Color(0xFFF4C470),
+  buttonColor: Color(0xFFF4C480),
   textTheme: ButtonTextTheme.accent,
-  highlightColor: Color.fromRGBO(0, 0, 0, .3),
-  focusColor: Color.fromRGBO(0, 0, 0, .3),
+  highlightColor: Color.fromRGBO(196, 170, 156, 1),
+  focusColor: Color.fromRGBO(196, 170, 156, 1),
 );
 
 const Map<int, Color> kThemeMaterialColor = {
-  50: Color.fromRGBO(0, 0, 0, .1),
-  100: Color.fromRGBO(0, 0, 0, .2),
-  200: Color.fromRGBO(0, 0, 0, .3),
-  300: Color.fromRGBO(0, 0, 0, .4),
-  000: Color.fromRGBO(0, 0, 0, .5),
-  500: Color.fromRGBO(0, 0, 0, .6),
-  600: Color.fromRGBO(0, 0, 0, .7),
-  700: Color.fromRGBO(0, 0, 0, .8),
-  800: Color.fromRGBO(0, 0, 0, .9),
-  900: Color.fromRGBO(0, 0, 0, 1),
+  50: Color.fromRGBO(217, 178, 146, .1),
+  100: Color.fromRGBO(217, 178, 146, .2),
+  200: Color.fromRGBO(217, 178, 146, .3),
+  300: Color.fromRGBO(217, 178, 146, .4),
+  000: Color.fromRGBO(217, 178, 146, .5),
+  500: Color.fromRGBO(217, 178, 146, .6),
+  600: Color.fromRGBO(217, 178, 146, .7),
+  700: Color.fromRGBO(217, 178, 146, .8),
+  800: Color.fromRGBO(217, 178, 146, .9),
+  900: Color.fromRGBO(217, 178, 146, 1),
 };

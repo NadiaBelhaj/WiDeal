@@ -6,6 +6,7 @@ class AppUser {
   String name;
   int age;
   //l'age s'incremente (date de naissance)
+  //ajouter offre
   String profilePhotoPath;
   String bio = "";
 
