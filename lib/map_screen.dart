@@ -79,7 +79,7 @@ class _MapScreen extends State<MapScreen> {
               personMarker: MarkerIcon(
                 icon: Icon(
                   Icons.location_history_rounded,
-                  color: Colors.red,
+                  color: Colors.brown,
                   size: 48,
                 ),
               ),
@@ -98,7 +98,7 @@ class _MapScreen extends State<MapScreen> {
                   color: Colors.brown,
                 ),
               ),
-              roadColor: Colors.red,
+              roadColor: Colors.yellow.shade200,
             ),
             markerOption: MarkerOption(
               defaultMarker: MarkerIcon(
@@ -113,7 +113,7 @@ class _MapScreen extends State<MapScreen> {
           Positioned(
             bottom: 10,
             child: MaterialButton(
-              color: Colors.red,
+              color: Colors.yellow.shade200,
               onPressed: () async {
                 GeoPoint geoPoint = await controller!.myLocation();
                 _roadInfo = await controller!.drawRoad(
@@ -159,7 +159,7 @@ class _MapScreen extends State<MapScreen> {
             bottom: 100,
             right: 20,
             child: MaterialButton(
-              color: Colors.red,
+              color: Colors.brown,
               onPressed: () async {
                 await controller!.addMarker(
                   GeoPoint(
@@ -169,7 +169,7 @@ class _MapScreen extends State<MapScreen> {
                   markerIcon: MarkerIcon(
                     icon: Icon(
                       Icons.place,
-                      color: Colors.green,
+                      color: Colors.blue,
                     ),
                   ),
                 );
@@ -182,7 +182,7 @@ class _MapScreen extends State<MapScreen> {
             left: 20,
             right: 20,
             child: Material(
-              color: Colors.red,
+              color: Colors.brown,
               child: Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: Text("Distance:${distance} m, Time:${time} second"),
@@ -194,7 +194,7 @@ class _MapScreen extends State<MapScreen> {
             left: 20,
             right: 20,
             child: Material(
-              color: Colors.red,
+              color: Colors.brown,
               child: Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: Text(address),

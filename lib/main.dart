@@ -84,7 +84,7 @@ class _MyHomePageState extends State<MyHomePage> {
           child: FlatButton(
             onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (_) =>
-                  MapScreen(address: "kathmandu", endLoc: GeoPoint(
+                  MapScreen(address: "tunisia", endLoc: GeoPoint(
                       latitude: 25.123,
                       longitude: 85.111
                   ))));
