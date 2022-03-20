@@ -169,7 +169,7 @@ class _MapScreen extends State<MapScreen> {
                   markerIcon: MarkerIcon(
                     icon: Icon(
                       Icons.place,
-                      color: Colors.blue,
+                      color: Colors.green,
                     ),
                   ),
                 );
