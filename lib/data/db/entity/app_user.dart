@@ -5,6 +5,7 @@ class AppUser {
   String id;
   String name;
   int age;
+  String email;
   //l'age s'incremente (date de naissance)
   //ajouter offre
   String profilePhotoPath;
@@ -14,12 +15,14 @@ class AppUser {
       {@required this.id,
       @required this.name,
       @required this.age,
+      @required this.email,
       @required this.profilePhotoPath});
 
   AppUser.fromSnapshot(DocumentSnapshot snapshot) {
     id = snapshot['id'];
     name = snapshot['name'];
     age = snapshot['age'];
+    email = snapshot['email'];
     profilePhotoPath = snapshot['profile_photo_path'];
     bio = snapshot.get('bio') ?? '';
   }
@@ -29,6 +32,7 @@ class AppUser {
       'id': id,
       'name': name,
       'age': age,
+      'email': email,
       'profile_photo_path': profilePhotoPath,
       'bio': bio
     };
